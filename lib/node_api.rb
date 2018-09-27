@@ -2,7 +2,7 @@ require 'cisco_node_utils'
 
 # Create a connection to the following:
 # - 'default' device defined in the cisco_node_utils.yaml
-node = Cisco::Node.instance()
+node = Cisco::Node.instance
 # OR:
 # - 'n9k' device defined in the cisco_node_utils.yaml file
 # Cisco::Environment.default_environment_name = 'n9k'

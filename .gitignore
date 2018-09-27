@@ -1,0 +1,11 @@
+.bundle/
+.idea/
+coverage/
+junit/
+log/
+pkg/
+Gemfile.lock
+*~
+*.swp
+hosts.cfg
+vendor/

@@ -3,7 +3,7 @@ require 'cisco_node_utils'
 # Create a connection to the following nodes:
 # - 'default' device defined in the cisco_node_utils.yaml file
 # - 'n9k' device defined in the cisco_node_utils.yaml file
-client1 = Cisco::Client.create()
+client1 = Cisco::Client.create
 # client2 = Cisco::Client.create('n9k')
 # Warning: Make sure to exclude devices using the 'no_proxy' environment variable
 # to ensure successful remote connections.

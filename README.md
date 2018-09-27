@@ -28,9 +28,18 @@ On `lib/client_api.rb` edit the env to match your Nexus device
 
 #### Client example
 
-```
-ruby lib/client_api.rb
+Run either
 
+```
+rake clientapi
+
+```
+or
+```
+ruby ./lib/client_api.rb
+```
+
+```
 VTP Domain Name                 : myclientcompany.com
 Cisco Nexus Operating System (NX-OS) Software
 TAC support: http://www.cisco.com/tac
@@ -75,9 +84,17 @@ Active Package(s):
 
 #### Node example
 
+
+```
+rake nodeapi
+
+```
+or
 ```
 ruby ./lib/node_api.rb
+```
 
+```
   mynodecompany.com
   ```
  
